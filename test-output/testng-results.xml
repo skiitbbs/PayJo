@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20104" started-at="2017-07-28T12:44:36Z" finished-at="2017-07-28T12:44:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20104" started-at="2017-07-28T12:44:36Z" finished-at="2017-07-28T12:44:56Z">
+      <class name="TestCaseSuite.assignmentTestCase">
+        <test-method status="PASS" signature="getBrowser()[pri:0, instance:TestCaseSuite.assignmentTestCase@343f4d3d]" name="getBrowser" is-config="true" duration-ms="1339" started-at="2017-07-28T18:14:36Z" finished-at="2017-07-28T18:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowser -->
+        <test-method status="PASS" signature="UserActionsOnFlipkart()[pri:0, instance:TestCaseSuite.assignmentTestCase@343f4d3d]" name="UserActionsOnFlipkart" duration-ms="18736" started-at="2017-07-28T18:14:37Z" finished-at="2017-07-28T18:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserActionsOnFlipkart -->
+      </class> <!-- TestCaseSuite.assignmentTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
