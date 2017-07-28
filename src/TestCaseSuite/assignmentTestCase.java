@@ -46,7 +46,9 @@ public class assignmentTestCase {
 	
 	search.AddtoCart(); //Calling Add to Cart function.
 	
-	login.Logout();
+	login.Logout(); //Calling Logout function.
+	
+	driver.close();
 	
 	
  	}

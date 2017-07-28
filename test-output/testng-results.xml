@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20104" started-at="2017-07-28T12:44:36Z" finished-at="2017-07-28T12:44:56Z">
+  <suite name="Default suite" duration-ms="26219" started-at="2017-07-28T20:00:22Z" finished-at="2017-07-28T20:00:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20104" started-at="2017-07-28T12:44:36Z" finished-at="2017-07-28T12:44:56Z">
+    <test name="Default test" duration-ms="26219" started-at="2017-07-28T20:00:22Z" finished-at="2017-07-28T20:00:48Z">
       <class name="TestCaseSuite.assignmentTestCase">
-        <test-method status="PASS" signature="getBrowser()[pri:0, instance:TestCaseSuite.assignmentTestCase@343f4d3d]" name="getBrowser" is-config="true" duration-ms="1339" started-at="2017-07-28T18:14:36Z" finished-at="2017-07-28T18:14:37Z">
+        <test-method status="PASS" signature="getBrowser()[pri:0, instance:TestCaseSuite.assignmentTestCase@343f4d3d]" name="getBrowser" is-config="true" duration-ms="2725" started-at="2017-07-29T01:30:22Z" finished-at="2017-07-29T01:30:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBrowser -->
-        <test-method status="PASS" signature="UserActionsOnFlipkart()[pri:0, instance:TestCaseSuite.assignmentTestCase@343f4d3d]" name="UserActionsOnFlipkart" duration-ms="18736" started-at="2017-07-28T18:14:37Z" finished-at="2017-07-28T18:14:56Z">
+        <test-method status="PASS" signature="UserActionsOnFlipkart()[pri:0, instance:TestCaseSuite.assignmentTestCase@343f4d3d]" name="UserActionsOnFlipkart" duration-ms="23477" started-at="2017-07-29T01:30:25Z" finished-at="2017-07-29T01:30:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserActionsOnFlipkart -->

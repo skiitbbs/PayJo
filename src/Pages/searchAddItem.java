@@ -69,11 +69,11 @@ public WebDriver fdriver;
 		//Comparing is done over here.
 		if(productDetail == Cartitem){
 			
-			System.out.println(productDetail + "Match with Cart item:" + Cartitem);
+			System.out.println(productDetail + "Match with:" + Cartitem);
 		}
 		
 		else{
-			System.out.println(productDetail + " Does not match with " + Cartitem);
+			System.out.println(productDetail + "Does not Match with " + Cartitem);
 		}
 	}
 
