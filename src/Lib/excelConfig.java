@@ -13,7 +13,7 @@ public class excelConfig {
 	
 	public excelConfig(String excelPath){
 		
-		//This method is going to initiate the objects present FileInputStream and WorkBook class.
+		//This method is going to initiate the objects present in FileInputStream and WorkBook class.
 		//Initiated object is going to use to read the excel data from provided getData.
 		
 		try {

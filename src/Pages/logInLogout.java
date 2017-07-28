@@ -15,18 +15,20 @@ public class logInLogout {
 	
 	public WebDriver fdriver;
 	
-	//excelConfig
 	
 	public logInLogout(WebDriver driver){
-		fdriver =  driver;
+		fdriver =  driver; //Constructor to make sure communication between this class and executing class happen smoothly.
 	}
 	
+	//Below line of excel code is going to import the data from excel.
 	excelConfig excel = new excelConfig("//home//sumit//workspace//PayjoFlipkartAssignment//TestData.xlsx");
 	String email = excel.getData(0, 0, 0);
 	String pass = excel.getData(0, 0, 1);
 
 	
 	public void Login(){
+		
+		//This function is going to Login into Flipkart. 
 		
 		fdriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
@@ -41,6 +43,8 @@ public class logInLogout {
 	}
 	
 	public void Logout(){
+		
+		//This function is going to Logout from Flipkart.
 		
 		fdriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		

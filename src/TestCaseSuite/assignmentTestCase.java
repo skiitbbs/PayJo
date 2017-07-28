@@ -26,25 +26,25 @@ public class assignmentTestCase {
  	@Test
  	public void UserActionsOnFlipkart(){
 	
- 		//this is the first test case which will login into facebook and post the status.
+ 	//this is the first test case which will login into flipkart, then Search for the Product and then add searched itme into Cart.
 	
 	String url = "https://www.flipkart.com/";
 	driver.get(url); 
 	
 	
-	logInLogout login = new logInLogout(driver);
+	logInLogout login = new logInLogout(driver); //Initializing LoginLogout Class.
 	
 	
-	login.Login();
+	login.Login(); //Calling Login Function.
 	
 	System.out.println("User has beeen succcessfuly Logged In");
 	
 	
-	searchAddItem search = new searchAddItem(driver);
+	searchAddItem search = new searchAddItem(driver); //Initializing Search Class.
 	
-	search.Searchitem();
+	search.Searchitem(); //Calling Search function.
 	
-	search.AddtoCart();
+	search.AddtoCart(); //Calling Add to Cart function.
 	
 	login.Logout();
 	
