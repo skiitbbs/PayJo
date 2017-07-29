@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
-
 import Lib.excelConfig;
 
 public class searchAddItem {
@@ -67,13 +66,13 @@ public WebDriver fdriver;
 		System.out.println("Cartitem text is:" +Cartitem);
 		
 		//Comparing is done over here.
-		if(productDetail == Cartitem){
+		if(productDetail.equalsIgnoreCase( Cartitem)){
 			
-			System.out.println(productDetail + "Match with:" + Cartitem);
+			System.out.println(productDetail + " Match with Cart item:" + Cartitem);
 		}
 		
 		else{
-			System.out.println(productDetail + "Does not Match with " + Cartitem);
+			System.out.println(productDetail + " Does not match with " + Cartitem);
 		}
 	}
 
